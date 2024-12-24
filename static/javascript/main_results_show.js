@@ -566,8 +566,21 @@ Object.values(sortby_options).forEach(sortby_option => {
     });
 });
 
+function getBasePath() {
+    // 获取当前环境的基础路径
+    if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+        return '';  // 本地开发环境
+    } else if (window.location.hostname.includes('github.io')) {
+        return '.';  // GitHub Pages 环境
+    }
+    return '';  // 其他环境默认
+}
+
+// 使用基础路径
+const basePath = getBasePath();
+
 document.addEventListener('DOMContentLoaded', function () {
-    fetch('/data/To_Release/main_data_new.json').then(response => response.json()).then((loadedData) => {
+    fetch(`${basePath}/data/To_Release/main_data_new.json`).then(response => response.json()).then((loadedData) => {
         rawData = loadedData;
         generateModelColorsAndStyles(rawData.map(data => data.model));
         createMainResultChart();

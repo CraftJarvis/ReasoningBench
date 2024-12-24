@@ -24,9 +24,22 @@ const sortby_options = {
 let currentTask = 'Avg';
 let cur_sortby_option = sortby_options.BY_REWARD_SCORE_EASY;
 
+function getBasePath() {
+    // 获取当前环境的基础路径
+    if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+        return '';  // 本地开发环境
+    } else if (window.location.hostname.includes('github.io')) {
+        return '.';  // GitHub Pages 环境
+    }
+    return '';  // 其他环境默认
+}
+
+// 使用基础路径
+const basePath = getBasePath();
+
 // Load JSON data and initialize the chart
 function loadData() {
-    return fetch('/data/To_Release/difficulty.json')
+    return fetch(`${basePath}/data/To_Release/difficulty.json`)
         .then(response => response.json())
         .then(data => {
             rawData = data;

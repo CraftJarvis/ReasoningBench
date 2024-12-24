@@ -1,5 +1,5 @@
 async function fetchData() {
-    const response = await fetch('/data/To_Release/dimension_score_all.json');
+    const response = await fetch('./data/To_Release/dimension_score_all.json');
     const models = await response.json();
     return models;
 }

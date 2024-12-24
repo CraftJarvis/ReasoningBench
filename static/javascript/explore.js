@@ -5,8 +5,21 @@ document.addEventListener('DOMContentLoaded', function () {
 
 var taskData;
 
+function getBasePath() {
+    // 获取当前环境的基础路径
+    if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+        return '';  // 本地开发环境
+    } else if (window.location.hostname.includes('github.io')) {
+        return '.';  // GitHub Pages 环境
+    }
+    return '';  // 其他环境默认
+}
+
+// 使用基础路径
+const basePath = getBasePath();
+
 function loadTasks() {
-    fetch('/data/To_Release/task_description.json')
+    fetch(`${basePath}/data/To_Release/task_description.json`)
         .then(response => response.json())
         .then(data => {
             taskData = data;
