@@ -26,7 +26,7 @@ let cur_sortby_option = sortby_options.BY_REWARD_SCORE_EASY;
 
 // Load JSON data and initialize the chart
 function loadData() {
-    return fetch('/agentboard/data/To_Release/difficulty.json')
+    return fetch('/data/To_Release/difficulty.json')
         .then(response => response.json())
         .then(data => {
             rawData = data;
@@ -152,7 +152,6 @@ function createScoreChart() {
                             family: "'Noto Sans', sans-serif",
                             weight: 'bold',
                         },
-
                     },
                     stacked: false,
                     min: 0,
@@ -312,6 +311,7 @@ function highlightModelInChart(chart, modelName) {
 
 
 document.getElementById('difficulty_score_Chart').addEventListener('mousemove', (event) => {
+    if (!scoreChart) return;
     const activePoints = scoreChart.getElementsAtEventForMode(event, 'nearest', {intersect: true}, true);
     if (activePoints.length > 0) {
         const firstPoint = activePoints[0];
@@ -322,6 +322,7 @@ document.getElementById('difficulty_score_Chart').addEventListener('mousemove', 
 });
 
 document.getElementById('difficulty_acc_Chart').addEventListener('mousemove', (event) => {
+    if (!accChart) return;
     const activePoints = accChart.getElementsAtEventForMode(event, 'nearest', {intersect: true}, true);
     if (activePoints.length > 0) {
         const firstPoint = activePoints[0];

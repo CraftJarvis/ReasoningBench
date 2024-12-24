@@ -138,7 +138,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     function loadAndDrawChart(task, subTask) {
-        fetch('/agentboard/data/To_Release/reward_vs_steps.json')
+        fetch('/data/To_Release/reward_vs_steps.json')
             .then(response => response.json())
             .then(data => {
                 const subTaskKey = subTask === 'Avg' ? 'Avg' : subTask.toLowerCase();

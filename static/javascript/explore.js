@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
 var taskData;
 
 function loadTasks() {
-    fetch('/agentboard/data/To_Release/task_description.json')
+    fetch('/data/To_Release/task_description.json')
         .then(response => response.json())
         .then(data => {
             taskData = data;
