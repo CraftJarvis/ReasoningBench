@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AgentBoard: An Analytical Evaluation Board of Multi-Turn LLM Agents</title>
-    <link rel="icon" href="static/img/icon/logo.png" type="image/icon type">
+    <title>Generative Evaluation of Complex Reasoning in Large Language Models</title>
+    <!-- <link rel="icon" href="static/img/icon/logo.png" type="image/icon type"> -->
     <link rel="stylesheet" href="static/css/leaderboard.css">
     <link rel="stylesheet" href="static/css/main.css">
     <link rel="stylesheet" href="static/css/nav.css">
@@ -39,10 +39,10 @@
     <div>
         <a class="nav-button" href="#home">
             <img src="static/img/icon/home_icon.png" alt="Home">Home</a>
-        <a class="nav-button" href="static/leaderboard.html">
-            <img src="static/img/icon/leaderboard_icon.png" alt="Result">Result</a>
         <a class="nav-button" href="static/explore.html">
             <img src="static/img/icon/explore_icon.png" alt="Explore">Explore</a>
+        <a class="nav-button" href="https://huggingface.co/spaces/zhwang4ai/GenerativeReasoningBenchmark">
+            <img src="static/img/icon/leaderboard_icon.png" alt="Leaderboard">Huggingface Leaderboard</a>
     </div>
 </div>
 
@@ -53,9 +53,9 @@
 <!-- banner -->
 <div id="title">
     <div id="title-wrapper">
-        <h1 id="title-text"><img src="static/img/icon/logo.png" id="title-icon" alt="AgentBoard">AgentBoard: An Analytical Evaluation Board of <br>
-            Multi-Turn LLM Agents<br>
-            (2024)
+        <!-- <h1 id="title-text"><img src="static/img/icon/logo.png" id="title-icon" alt="Kumo">Generative Evaluation of Complex Reasoning in Large Language Models
+        </h1> -->
+        <h1 id="title-text">KUMO: Generative Evaluation of Complex Reasoning in Large Language Models
         </h1>
     </div>
     <!--    <h1 id="title-padding-bottom"></h1>-->
@@ -63,25 +63,22 @@
 
 <!-- the main body of the page -->
 <div class="centered-nav">
-    <a class="nav-button" href="http://arxiv.org/abs/2401.13178">
+    <a class="nav-button" href="https://arxiv.org/pdf/2504.02810">
         <img src="static/img/icon/paper_icon.png" alt="Paper">Paper
     </a>
-    <a class="nav-button" href="https://github.com/hkust-nlp/AgentBoard/blob/main" class="ext-link" target="_blank">
+    <a class="nav-button" href="https://github.com/linhaowei1/kumo/tree/main" class="ext-link" target="_blank">
         <img src="static/img/icon/code_icon.png" alt="Code">Code
     </a>
     <a class="nav-button" href="https://huggingface.co/datasets/hkust-nlp/agentboard" class="ext-link" target="_blank">
-        <img src="static/img/icon/data_icon.png" alt="Data">Data
+        <img src="static/img/icon/leaderboard_icon.png" alt="Leaderboard">Leaderboard
     </a>
 </div>
 
 <div class="main-body">
     <div class="section">
-        <h2>About AgentBoard</h2>
+        <h2>About Kumo</h2>
         <p style="line-height: 150%">
-            <b>AgentBoard</b> is a benchmark designed for multi-turn LLM agents, complemented by an analytical
-            evaluation board for detailed model assessment beyond final success rates.<br>
-            Main Performance of different LLMs across various environments are shown below, please check our <a
-                class="ext-link" href="static/leaderboard.html">Result</a> for more details.
+            <b>KUMO</b> is a novel benchmark designed to systematically evaluate the complex reasoning capabilities of Large Language Models (LLMs) through procedurally generated reasoning games. Explore the limits of LLM reasoning and track model performance on our interactive leaderboard.
         </p>
     </div>
 </div>
@@ -147,15 +144,11 @@
 
 
     <div class="section">
-        <div id="data" class="anchor"></div>
-        <h2>Data</h2>
+        <div id="hf-leaderboard" class="anchor"></div>
+        <h2>Huggingface Leaderboard</h2>
         <p>
-            Our data can be directly downloaded on <a class="ext-link"
-                                                      href="https://huggingface.co/datasets/hkust-nlp/agentboard/tree/main"
-                                                      target="_blank">Huggingface
-            datasets</a>. Please refer to our <a class="ext-link" href="https://github.com/hkust-nlp/AgentBoard?tab=readme-ov-file#6-data"
-                                                 target="_blank">github
-            instructions</a> for how to read and use the data.
+            Our full leaderboard is available on <a class="ext-link" href="https://huggingface.co/spaces/zhwang4ai/GenerativeReasoningBenchmark">Huggingface</a>.
+            Please refer to our <a class="ext-link" href="https://github.com/linhaowei1/kumo/tree/main">github</a> repo for more details.
         </p>
     </div>
     <div class="section">
@@ -165,13 +158,11 @@
 <!--            If the paper, codes, or the dataset inspires you, please cite us:-->
 <!--        </p>-->
         <pre class="bibtax">
-@misc{ma2024agentboard,
-      title={AgentBoard: An Analytical Evaluation Board of Multi-turn LLM Agents},
-      author={Chang Ma and Junlei Zhang and Zhihao Zhu and Cheng Yang and Yujiu Yang and Yaohui Jin and Zhenzhong Lan and Lingpeng Kong and Junxian He},
-      year={2024},
-      eprint={2401.13178},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@article{lin2025generative,
+    title={Generative Evaluation of Complex Reasoning in Large Language Models},
+    author={Lin, Haowei and Wang, Xiangyu and Yan, Ruilin and Huang, Baizhou and Ye, Haotian and Zhu, Jianhua and Wang, Zihao and Zou, James and Ma, Jianzhu and Liang, Yitao},
+    journal={arXiv preprint arXiv:2504.02810},
+    year={2025}
 }
         </pre>
     </div>
@@ -187,20 +178,6 @@
             For potential collaboration, please contact <a href="mailto:junxianh2@gmail.com">junxianh2@gmail.com</a>.
         </p>
     </div>
-
-    <!-- Affiliation  -->
-<!--    <div class="section" style="text-align: center;">-->
-<!--        <div class="profile">-->
-<!--            <a href="https://www.sjtu.edu.cn/" target="_blank" rel="external">-->
-<!--                <img class="center-block" src="static/img/sjtu_red.png"-->
-<!--                     style="height:6em; max-width: 100%;"></a>-->
-<!--        </div>-->
-<!--        <div class="profile">-->
-<!--            <a href="https://www.tsinghua.edu.cn/" target="_blank" rel="external">-->
-<!--                <img class="center-block" src="static/img/THU_purple.png"-->
-<!--                     style="height:6em; max-width: 100%;"></a>-->
-<!--        </div>-->
-<!--    </div>-->
 
 
 </div>
