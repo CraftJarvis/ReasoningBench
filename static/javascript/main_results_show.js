@@ -8,8 +8,6 @@ const sortby_options = {
     BY_REWARD_SCORE: "sort-by-reward-score",
     BY_SUCCESS_RATE: "sort-by-success-rate",
     BY_GROUNDING_ACC: "sort-by-grounding-acc",
-    BY_EASY: "sort-by-easy",
-    BY_HARD: "sort-by-hard",
 };
 let cur_sortby_option = sortby_options.BY_REWARD_SCORE;
 
@@ -19,11 +17,6 @@ const taskSubtaskMapping = {
     'Game': ['PDDL', 'Jericho'],
     'Web': ['WebShop', 'WebArena'],
     'Tools': ['Tool-Query', 'Tool-Operation'],
-    'MedicalEnv': ['Easy', 'Hard'],
-    'EducationEnv': ['Easy', 'Hard'],
-    'MusicEnv': ['Easy', 'Hard'],
-    'FantasyEnv': ['Easy', 'Hard'],
-    'ChemicalEnv': ['Easy', 'Hard'],
 };
 
 const SubtaskNameMapping = {
@@ -159,10 +152,6 @@ function createMainResultChart() {
         taskScores.sort((a, b) => b.accuracy - a.accuracy);
     } else if (cur_sortby_option === sortby_options.BY_GROUNDING_ACC) {
         taskScores.sort((a, b) => b.grounding - a.grounding);
-    } else if (cur_sortby_option === sortby_options.BY_EASY) {
-        taskScores.sort((a, b) => b.easy - a.easy);
-    } else if (cur_sortby_option === sortby_options.BY_HARD) {
-        taskScores.sort((a, b) => b.hard - a.hard);
     }
     taskScores_save = taskScores
 
@@ -591,7 +580,7 @@ function getBasePath() {
 const basePath = getBasePath();
 
 document.addEventListener('DOMContentLoaded', function () {
-    fetch(`${basePath}/data/kumo/main_data_new.json`).then(response => response.json()).then((loadedData) => {
+    fetch(`${basePath}/data/To_Release/main_data_new.json`).then(response => response.json()).then((loadedData) => {
         rawData = loadedData;
         generateModelColorsAndStyles(rawData.map(data => data.model));
         createMainResultChart();
