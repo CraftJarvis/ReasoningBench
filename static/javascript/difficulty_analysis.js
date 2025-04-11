@@ -26,7 +26,9 @@ let cur_sortby_option = sortby_options.BY_REWARD_SCORE_EASY;
 
 function getBasePath() {
     // 获取当前环境的基础路径
-    if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+    if (window.location.protocol === 'file:') {
+        return '';  // 本地文件系统环境（file:///）
+    } else if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
         return '';  // 本地开发环境
     } else if (window.location.hostname.includes('github.io')) {
         return '.';  // GitHub Pages 环境
