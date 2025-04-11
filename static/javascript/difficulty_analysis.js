@@ -41,7 +41,7 @@ const basePath = getBasePath();
 
 // Load JSON data and initialize the chart
 function loadData() {
-    return fetch(`${basePath}/data/To_Release/difficulty.json`)
+    return fetch('./data/To_Release/difficulty.json')
         .then(response => response.json())
         .then(data => {
             rawData = data;
