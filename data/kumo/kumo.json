@@ -1,0 +1,1802 @@
+{
+    "qwen2.5-3b-instruct": {
+        "Alfworld": {
+            "easy": {
+                "score": "65.4%",
+                "accuracy": "22.0%"
+            },
+            "hard": {
+                "score": "224.7%",
+                "accuracy": "4.8%"
+            },
+            "gap": {
+                "score": "-159.4%",
+                "accuracy": "17.2%"
+            }
+        },
+        "ScienceWorld": {
+            "easy": {
+                "score": "93.6%",
+                "accuracy": "10.4%"
+            },
+            "hard": {
+                "score": "293.9%",
+                "accuracy": "5.6%"
+            },
+            "gap": {
+                "score": "-200.3%",
+                "accuracy": "4.8%"
+            }
+        },
+        "BabyAI": {
+            "easy": {
+                "score": "84.2%",
+                "accuracy": "18.4%"
+            },
+            "hard": {
+                "score": "284.1%",
+                "accuracy": "5.6%"
+            },
+            "gap": {
+                "score": "-199.9%",
+                "accuracy": "12.8%"
+            }
+        },
+        "Jericho": {
+            "easy": {
+                "score": "67.4%",
+                "accuracy": "14.8%"
+            },
+            "hard": {
+                "score": "187.6%",
+                "accuracy": "10.8%"
+            },
+            "gap": {
+                "score": "-120.2%",
+                "accuracy": "4.0%"
+            }
+        },
+        "PDDL": {
+            "easy": {
+                "score": "102.2%",
+                "accuracy": "26.4%"
+            },
+            "hard": {
+                "score": "222.4%",
+                "accuracy": "4.4%"
+            },
+            "gap": {
+                "score": "-120.2%",
+                "accuracy": "22.0%"
+            }
+        }
+    },
+    "qwen2.5-7b-instruct": {
+        "Alfworld": {
+            "easy": {
+                "score": "57.1%",
+                "accuracy": "54.4%"
+            },
+            "hard": {
+                "score": "216.8%",
+                "accuracy": "18.0%"
+            },
+            "gap": {
+                "score": "-159.7%",
+                "accuracy": "36.4%"
+            }
+        },
+        "ScienceWorld": {
+            "easy": {
+                "score": "92.3%",
+                "accuracy": "26.8%"
+            },
+            "hard": {
+                "score": "284.7%",
+                "accuracy": "15.6%"
+            },
+            "gap": {
+                "score": "-192.4%",
+                "accuracy": "11.2%"
+            }
+        },
+        "BabyAI": {
+            "easy": {
+                "score": "100.1%",
+                "accuracy": "26.0%"
+            },
+            "hard": {
+                "score": "273.9%",
+                "accuracy": "12.4%"
+            },
+            "gap": {
+                "score": "-173.9%",
+                "accuracy": "13.6%"
+            }
+        },
+        "Jericho": {
+            "easy": {
+                "score": "67.8%",
+                "accuracy": "32.0%"
+            },
+            "hard": {
+                "score": "172.7%",
+                "accuracy": "24.8%"
+            },
+            "gap": {
+                "score": "-104.9%",
+                "accuracy": "7.2%"
+            }
+        },
+        "PDDL": {
+            "easy": {
+                "score": "116.9%",
+                "accuracy": "44.0%"
+            },
+            "hard": {
+                "score": "214.8%",
+                "accuracy": "12.4%"
+            },
+            "gap": {
+                "score": "-97.9%",
+                "accuracy": "31.6%"
+            }
+        }
+    },
+    "qwen2.5-14b-instruct": {
+        "Alfworld": {
+            "easy": {
+                "score": "49.1%",
+                "accuracy": "83.2%"
+            },
+            "hard": {
+                "score": "187.1%",
+                "accuracy": "47.6%"
+            },
+            "gap": {
+                "score": "-138.0%",
+                "accuracy": "35.6%"
+            }
+        },
+        "ScienceWorld": {
+            "easy": {
+                "score": "70.2%",
+                "accuracy": "82.8%"
+            },
+            "hard": {
+                "score": "226.0%",
+                "accuracy": "54.8%"
+            },
+            "gap": {
+                "score": "-155.9%",
+                "accuracy": "28.0%"
+            }
+        },
+        "BabyAI": {
+            "easy": {
+                "score": "62.4%",
+                "accuracy": "65.6%"
+            },
+            "hard": {
+                "score": "246.6%",
+                "accuracy": "22.4%"
+            },
+            "gap": {
+                "score": "-184.2%",
+                "accuracy": "43.2%"
+            }
+        },
+        "Jericho": {
+            "easy": {
+                "score": "20.9%",
+                "accuracy": "74.0%"
+            },
+            "hard": {
+                "score": "114.6%",
+                "accuracy": "42.4%"
+            },
+            "gap": {
+                "score": "-93.6%",
+                "accuracy": "31.6%"
+            }
+        },
+        "PDDL": {
+            "easy": {
+                "score": "83.5%",
+                "accuracy": "72.4%"
+            },
+            "hard": {
+                "score": "194.9%",
+                "accuracy": "23.6%"
+            },
+            "gap": {
+                "score": "-111.3%",
+                "accuracy": "48.8%"
+            }
+        }
+    },
+    "qwen2.5-32b-instruct": {
+        "Alfworld": {
+            "easy": {
+                "score": "55.3%",
+                "accuracy": "88.0%"
+            },
+            "hard": {
+                "score": "180.5%",
+                "accuracy": "52.4%"
+            },
+            "gap": {
+                "score": "-125.2%",
+                "accuracy": "35.6%"
+            }
+        },
+        "ScienceWorld": {
+            "easy": {
+                "score": "64.8%",
+                "accuracy": "90.4%"
+            },
+            "hard": {
+                "score": "221.9%",
+                "accuracy": "63.6%"
+            },
+            "gap": {
+                "score": "-157.1%",
+                "accuracy": "26.8%"
+            }
+        },
+        "BabyAI": {
+            "easy": {
+                "score": "68.6%",
+                "accuracy": "66.4%"
+            },
+            "hard": {
+                "score": "252.5%",
+                "accuracy": "24.0%"
+            },
+            "gap": {
+                "score": "-183.9%",
+                "accuracy": "42.4%"
+            }
+        },
+        "Jericho": {
+            "easy": {
+                "score": "23.5%",
+                "accuracy": "78.8%"
+            },
+            "hard": {
+                "score": "100.9%",
+                "accuracy": "52.0%"
+            },
+            "gap": {
+                "score": "-77.4%",
+                "accuracy": "26.8%"
+            }
+        },
+        "PDDL": {
+            "easy": {
+                "score": "85.6%",
+                "accuracy": "70.4%"
+            },
+            "hard": {
+                "score": "185.8%",
+                "accuracy": "27.6%"
+            },
+            "gap": {
+                "score": "-100.2%",
+                "accuracy": "42.8%"
+            }
+        }
+    },
+    "qwen2.5-72b-instruct": {
+        "Alfworld": {
+            "easy": {
+                "score": "43.5%",
+                "accuracy": "89.6%"
+            },
+            "hard": {
+                "score": "175.4%",
+                "accuracy": "47.2%"
+            },
+            "gap": {
+                "score": "-131.9%",
+                "accuracy": "42.4%"
+            }
+        },
+        "ScienceWorld": {
+            "easy": {
+                "score": "62.3%",
+                "accuracy": "84.8%"
+            },
+            "hard": {
+                "score": "216.8%",
+                "accuracy": "56.8%"
+            },
+            "gap": {
+                "score": "-154.5%",
+                "accuracy": "28.0%"
+            }
+        },
+        "BabyAI": {
+            "easy": {
+                "score": "59.9%",
+                "accuracy": "75.6%"
+            },
+            "hard": {
+                "score": "216.9%",
+                "accuracy": "36.8%"
+            },
+            "gap": {
+                "score": "-157.0%",
+                "accuracy": "38.8%"
+            }
+        },
+        "Jericho": {
+            "easy": {
+                "score": "39.4%",
+                "accuracy": "57.2%"
+            },
+            "hard": {
+                "score": "127.1%",
+                "accuracy": "38.4%"
+            },
+            "gap": {
+                "score": "-87.7%",
+                "accuracy": "18.8%"
+            }
+        },
+        "PDDL": {
+            "easy": {
+                "score": "82.5%",
+                "accuracy": "72.0%"
+            },
+            "hard": {
+                "score": "196.2%",
+                "accuracy": "21.2%"
+            },
+            "gap": {
+                "score": "-113.7%",
+                "accuracy": "50.8%"
+            }
+        }
+    },
+    "llama-3.1-8b-instruct": {
+        "Alfworld": {
+            "easy": {
+                "score": "67.6%",
+                "accuracy": "52.0%"
+            },
+            "hard": {
+                "score": "222.6%",
+                "accuracy": "11.6%"
+            },
+            "gap": {
+                "score": "-155.1%",
+                "accuracy": "40.4%"
+            }
+        },
+        "ScienceWorld": {
+            "easy": {
+                "score": "90.6%",
+                "accuracy": "56.8%"
+            },
+            "hard": {
+                "score": "260.2%",
+                "accuracy": "17.2%"
+            },
+            "gap": {
+                "score": "-169.6%",
+                "accuracy": "39.6%"
+            }
+        },
+        "BabyAI": {
+            "easy": {
+                "score": "88.2%",
+                "accuracy": "35.6%"
+            },
+            "hard": {
+                "score": "277.6%",
+                "accuracy": "7.2%"
+            },
+            "gap": {
+                "score": "-189.3%",
+                "accuracy": "28.4%"
+            }
+        },
+        "Jericho": {
+            "easy": {
+                "score": "62.8%",
+                "accuracy": "40.8%"
+            },
+            "hard": {
+                "score": "182.4%",
+                "accuracy": "14.0%"
+            },
+            "gap": {
+                "score": "-119.6%",
+                "accuracy": "26.8%"
+            }
+        },
+        "PDDL": {
+            "easy": {
+                "score": "112.9%",
+                "accuracy": "36.0%"
+            },
+            "hard": {
+                "score": "223.3%",
+                "accuracy": "8.0%"
+            },
+            "gap": {
+                "score": "-110.4%",
+                "accuracy": "28.0%"
+            }
+        }
+    },
+    "llama-3.1-70b-instruct": {
+        "Alfworld": {
+            "easy": {
+                "score": "40.9%",
+                "accuracy": "82.0%"
+            },
+            "hard": {
+                "score": "185.3%",
+                "accuracy": "31.6%"
+            },
+            "gap": {
+                "score": "-144.4%",
+                "accuracy": "50.4%"
+            }
+        },
+        "ScienceWorld": {
+            "easy": {
+                "score": "57.7%",
+                "accuracy": "76.8%"
+            },
+            "hard": {
+                "score": "221.9%",
+                "accuracy": "32.8%"
+            },
+            "gap": {
+                "score": "-164.2%",
+                "accuracy": "44.0%"
+            }
+        },
+        "BabyAI": {
+            "easy": {
+                "score": "62.0%",
+                "accuracy": "59.6%"
+            },
+            "hard": {
+                "score": "251.6%",
+                "accuracy": "16.0%"
+            },
+            "gap": {
+                "score": "-189.6%",
+                "accuracy": "43.6%"
+            }
+        },
+        "Jericho": {
+            "easy": {
+                "score": "32.3%",
+                "accuracy": "67.6%"
+            },
+            "hard": {
+                "score": "124.5%",
+                "accuracy": "33.6%"
+            },
+            "gap": {
+                "score": "-92.2%",
+                "accuracy": "34.0%"
+            }
+        },
+        "PDDL": {
+            "easy": {
+                "score": "82.9%",
+                "accuracy": "62.0%"
+            },
+            "hard": {
+                "score": "199.4%",
+                "accuracy": "14.0%"
+            },
+            "gap": {
+                "score": "-116.5%",
+                "accuracy": "48.0%"
+            }
+        }
+    },
+    "llama-3.2-3b-instruct": {
+        "Alfworld": {
+            "easy": {
+                "score": "68.2%",
+                "accuracy": "29.6%"
+            },
+            "hard": {
+                "score": "219.5%",
+                "accuracy": "11.6%"
+            },
+            "gap": {
+                "score": "-151.3%",
+                "accuracy": "18.0%"
+            }
+        },
+        "ScienceWorld": {
+            "easy": {
+                "score": "86.9%",
+                "accuracy": "19.2%"
+            },
+            "hard": {
+                "score": "286.5%",
+                "accuracy": "7.2%"
+            },
+            "gap": {
+                "score": "-199.5%",
+                "accuracy": "12.0%"
+            }
+        },
+        "BabyAI": {
+            "easy": {
+                "score": "107.9%",
+                "accuracy": "10.8%"
+            },
+            "hard": {
+                "score": "286.1%",
+                "accuracy": "3.6%"
+            },
+            "gap": {
+                "score": "-178.2%",
+                "accuracy": "7.2%"
+            }
+        },
+        "Jericho": {
+            "easy": {
+                "score": "71.3%",
+                "accuracy": "15.2%"
+            },
+            "hard": {
+                "score": "198.5%",
+                "accuracy": "6.4%"
+            },
+            "gap": {
+                "score": "-127.2%",
+                "accuracy": "8.8%"
+            }
+        },
+        "PDDL": {
+            "easy": {
+                "score": "115.3%",
+                "accuracy": "16.4%"
+            },
+            "hard": {
+                "score": "231.4%",
+                "accuracy": "3.2%"
+            },
+            "gap": {
+                "score": "-116.1%",
+                "accuracy": "13.2%"
+            }
+        }
+    },
+    "llama-3.3-70b-instruct": {
+        "Alfworld": {
+            "easy": {
+                "score": "44.4%",
+                "accuracy": "89.6%"
+            },
+            "hard": {
+                "score": "172.8%",
+                "accuracy": "44.0%"
+            },
+            "gap": {
+                "score": "-128.4%",
+                "accuracy": "45.6%"
+            }
+        },
+        "ScienceWorld": {
+            "easy": {
+                "score": "63.3%",
+                "accuracy": "90.4%"
+            },
+            "hard": {
+                "score": "228.1%",
+                "accuracy": "46.0%"
+            },
+            "gap": {
+                "score": "-164.7%",
+                "accuracy": "44.4%"
+            }
+        },
+        "BabyAI": {
+            "easy": {
+                "score": "67.1%",
+                "accuracy": "59.6%"
+            },
+            "hard": {
+                "score": "257.4%",
+                "accuracy": "14.0%"
+            },
+            "gap": {
+                "score": "-190.3%",
+                "accuracy": "45.6%"
+            }
+        },
+        "Jericho": {
+            "easy": {
+                "score": "27.1%",
+                "accuracy": "70.4%"
+            },
+            "hard": {
+                "score": "80.8%",
+                "accuracy": "54.0%"
+            },
+            "gap": {
+                "score": "-53.7%",
+                "accuracy": "16.4%"
+            }
+        },
+        "PDDL": {
+            "easy": {
+                "score": "93.9%",
+                "accuracy": "46.0%"
+            },
+            "hard": {
+                "score": "215.6%",
+                "accuracy": "11.2%"
+            },
+            "gap": {
+                "score": "-121.6%",
+                "accuracy": "34.8%"
+            }
+        }
+    },
+    "mistral-large-instruct-2411": {
+        "Alfworld": {
+            "easy": {
+                "score": "38.8%",
+                "accuracy": "89.6%"
+            },
+            "hard": {
+                "score": "167.8%",
+                "accuracy": "54.0%"
+            },
+            "gap": {
+                "score": "-129.0%",
+                "accuracy": "35.6%"
+            }
+        },
+        "ScienceWorld": {
+            "easy": {
+                "score": "67.7%",
+                "accuracy": "87.6%"
+            },
+            "hard": {
+                "score": "221.5%",
+                "accuracy": "55.2%"
+            },
+            "gap": {
+                "score": "-153.8%",
+                "accuracy": "32.4%"
+            }
+        },
+        "BabyAI": {
+            "easy": {
+                "score": "66.2%",
+                "accuracy": "66.4%"
+            },
+            "hard": {
+                "score": "250.1%",
+                "accuracy": "21.2%"
+            },
+            "gap": {
+                "score": "-183.8%",
+                "accuracy": "45.2%"
+            }
+        },
+        "Jericho": {
+            "easy": {
+                "score": "12.6%",
+                "accuracy": "82.4%"
+            },
+            "hard": {
+                "score": "59.5%",
+                "accuracy": "59.6%"
+            },
+            "gap": {
+                "score": "-46.9%",
+                "accuracy": "22.8%"
+            }
+        },
+        "PDDL": {
+            "easy": {
+                "score": "82.9%",
+                "accuracy": "68.0%"
+            },
+            "hard": {
+                "score": "198.9%",
+                "accuracy": "17.2%"
+            },
+            "gap": {
+                "score": "-116.0%",
+                "accuracy": "50.8%"
+            }
+        }
+    },
+    "gemma-2-27b-it": {
+        "Alfworld": {
+            "easy": {
+                "score": "48.5%",
+                "accuracy": "69.2%"
+            },
+            "hard": {
+                "score": "199.7%",
+                "accuracy": "26.4%"
+            },
+            "gap": {
+                "score": "-151.2%",
+                "accuracy": "42.8%"
+            }
+        },
+        "ScienceWorld": {
+            "easy": {
+                "score": "72.3%",
+                "accuracy": "62.4%"
+            },
+            "hard": {
+                "score": "270.0%",
+                "accuracy": "20.0%"
+            },
+            "gap": {
+                "score": "-197.7%",
+                "accuracy": "42.4%"
+            }
+        },
+        "BabyAI": {
+            "easy": {
+                "score": "77.3%",
+                "accuracy": "45.6%"
+            },
+            "hard": {
+                "score": "279.1%",
+                "accuracy": "10.0%"
+            },
+            "gap": {
+                "score": "-201.8%",
+                "accuracy": "35.6%"
+            }
+        },
+        "Jericho": {
+            "easy": {
+                "score": "35.6%",
+                "accuracy": "52.4%"
+            },
+            "hard": {
+                "score": "171.1%",
+                "accuracy": "18.8%"
+            },
+            "gap": {
+                "score": "-135.4%",
+                "accuracy": "33.6%"
+            }
+        },
+        "PDDL": {
+            "easy": {
+                "score": "95.4%",
+                "accuracy": "44.4%"
+            },
+            "hard": {
+                "score": "222.5%",
+                "accuracy": "9.6%"
+            },
+            "gap": {
+                "score": "-127.1%",
+                "accuracy": "34.8%"
+            }
+        }
+    },
+    "gemma-2-9b-it": {
+        "Alfworld": {
+            "easy": {
+                "score": "64.4%",
+                "accuracy": "57.6%"
+            },
+            "hard": {
+                "score": "222.6%",
+                "accuracy": "11.2%"
+            },
+            "gap": {
+                "score": "-158.1%",
+                "accuracy": "46.4%"
+            }
+        },
+        "ScienceWorld": {
+            "easy": {
+                "score": "88.4%",
+                "accuracy": "46.0%"
+            },
+            "hard": {
+                "score": "262.3%",
+                "accuracy": "23.2%"
+            },
+            "gap": {
+                "score": "-173.9%",
+                "accuracy": "22.8%"
+            }
+        },
+        "BabyAI": {
+            "easy": {
+                "score": "92.5%",
+                "accuracy": "28.4%"
+            },
+            "hard": {
+                "score": "284.3%",
+                "accuracy": "6.4%"
+            },
+            "gap": {
+                "score": "-191.8%",
+                "accuracy": "22.0%"
+            }
+        },
+        "Jericho": {
+            "easy": {
+                "score": "70.8%",
+                "accuracy": "32.4%"
+            },
+            "hard": {
+                "score": "184.8%",
+                "accuracy": "14.8%"
+            },
+            "gap": {
+                "score": "-114.0%",
+                "accuracy": "17.6%"
+            }
+        },
+        "PDDL": {
+            "easy": {
+                "score": "110.0%",
+                "accuracy": "31.6%"
+            },
+            "hard": {
+                "score": "215.8%",
+                "accuracy": "10.4%"
+            },
+            "gap": {
+                "score": "-105.8%",
+                "accuracy": "21.2%"
+            }
+        }
+    },
+    "deepseek-v3": {
+        "Alfworld": {
+            "easy": {
+                "score": "42.5%",
+                "accuracy": "90.4%"
+            },
+            "hard": {
+                "score": "161.7%",
+                "accuracy": "59.6%"
+            },
+            "gap": {
+                "score": "-119.2%",
+                "accuracy": "30.8%"
+            }
+        },
+        "ScienceWorld": {
+            "easy": {
+                "score": "71.3%",
+                "accuracy": "94.8%"
+            },
+            "hard": {
+                "score": "224.9%",
+                "accuracy": "68.8%"
+            },
+            "gap": {
+                "score": "-153.6%",
+                "accuracy": "26.0%"
+            }
+        },
+        "BabyAI": {
+            "easy": {
+                "score": "62.5%",
+                "accuracy": "81.2%"
+            },
+            "hard": {
+                "score": "222.0%",
+                "accuracy": "46.4%"
+            },
+            "gap": {
+                "score": "-159.4%",
+                "accuracy": "34.8%"
+            }
+        },
+        "Jericho": {
+            "easy": {
+                "score": "5.7%",
+                "accuracy": "92.0%"
+            },
+            "hard": {
+                "score": "52.3%",
+                "accuracy": "61.6%"
+            },
+            "gap": {
+                "score": "-46.6%",
+                "accuracy": "30.4%"
+            }
+        },
+        "PDDL": {
+            "easy": {
+                "score": "83.4%",
+                "accuracy": "88.0%"
+            },
+            "hard": {
+                "score": "191.8%",
+                "accuracy": "38.4%"
+            },
+            "gap": {
+                "score": "-108.5%",
+                "accuracy": "49.6%"
+            }
+        }
+    },
+    "deepseek-r1": {
+        "Alfworld": {
+            "easy": {
+                "score": "42.1%",
+                "accuracy": "93.6%"
+            },
+            "hard": {
+                "score": "147.5%",
+                "accuracy": "71.2%"
+            },
+            "gap": {
+                "score": "-105.4%",
+                "accuracy": "22.4%"
+            }
+        },
+        "ScienceWorld": {
+            "easy": {
+                "score": "72.8%",
+                "accuracy": "90.0%"
+            },
+            "hard": {
+                "score": "167.8%",
+                "accuracy": "85.2%"
+            },
+            "gap": {
+                "score": "-94.9%",
+                "accuracy": "4.8%"
+            }
+        },
+        "BabyAI": {
+            "easy": {
+                "score": "60.9%",
+                "accuracy": "86.8%"
+            },
+            "hard": {
+                "score": "205.0%",
+                "accuracy": "36.8%"
+            },
+            "gap": {
+                "score": "-144.0%",
+                "accuracy": "50.0%"
+            }
+        },
+        "Jericho": {
+            "easy": {
+                "score": "-2.5%",
+                "accuracy": "97.2%"
+            },
+            "hard": {
+                "score": "25.2%",
+                "accuracy": "78.0%"
+            },
+            "gap": {
+                "score": "-27.8%",
+                "accuracy": "19.2%"
+            }
+        },
+        "PDDL": {
+            "easy": {
+                "score": "83.9%",
+                "accuracy": "68.0%"
+            },
+            "hard": {
+                "score": "164.8%",
+                "accuracy": "34.4%"
+            },
+            "gap": {
+                "score": "-81.0%",
+                "accuracy": "33.6%"
+            }
+        }
+    },
+    "o1-mini": {
+        "Alfworld": {
+            "easy": {
+                "score": "42.6%",
+                "accuracy": "92.0%"
+            },
+            "hard": {
+                "score": "152.9%",
+                "accuracy": "70.0%"
+            },
+            "gap": {
+                "score": "-110.3%",
+                "accuracy": "22.0%"
+            }
+        },
+        "ScienceWorld": {
+            "easy": {
+                "score": "63.3%",
+                "accuracy": "85.6%"
+            },
+            "hard": {
+                "score": "175.1%",
+                "accuracy": "77.6%"
+            },
+            "gap": {
+                "score": "-111.7%",
+                "accuracy": "8.0%"
+            }
+        },
+        "BabyAI": {
+            "easy": {
+                "score": "53.2%",
+                "accuracy": "85.6%"
+            },
+            "hard": {
+                "score": "192.6%",
+                "accuracy": "54.0%"
+            },
+            "gap": {
+                "score": "-139.4%",
+                "accuracy": "31.6%"
+            }
+        },
+        "Jericho": {
+            "easy": {
+                "score": "0.1%",
+                "accuracy": "94.4%"
+            },
+            "hard": {
+                "score": "24.4%",
+                "accuracy": "76.4%"
+            },
+            "gap": {
+                "score": "-24.3%",
+                "accuracy": "18.0%"
+            }
+        },
+        "PDDL": {
+            "easy": {
+                "score": "73.0%",
+                "accuracy": "81.6%"
+            },
+            "hard": {
+                "score": "166.5%",
+                "accuracy": "36.8%"
+            },
+            "gap": {
+                "score": "-93.5%",
+                "accuracy": "44.8%"
+            }
+        }
+    },
+    "gpt-4o": {
+        "Alfworld": {
+            "easy": {
+                "score": "35.7%",
+                "accuracy": "90.4%"
+            },
+            "hard": {
+                "score": "160.3%",
+                "accuracy": "56.4%"
+            },
+            "gap": {
+                "score": "-124.5%",
+                "accuracy": "34.0%"
+            }
+        },
+        "ScienceWorld": {
+            "easy": {
+                "score": "58.5%",
+                "accuracy": "89.2%"
+            },
+            "hard": {
+                "score": "198.0%",
+                "accuracy": "67.2%"
+            },
+            "gap": {
+                "score": "-139.4%",
+                "accuracy": "22.0%"
+            }
+        },
+        "BabyAI": {
+            "easy": {
+                "score": "63.4%",
+                "accuracy": "67.2%"
+            },
+            "hard": {
+                "score": "239.6%",
+                "accuracy": "24.0%"
+            },
+            "gap": {
+                "score": "-176.2%",
+                "accuracy": "43.2%"
+            }
+        },
+        "Jericho": {
+            "easy": {
+                "score": "15.4%",
+                "accuracy": "77.6%"
+            },
+            "hard": {
+                "score": "70.7%",
+                "accuracy": "57.6%"
+            },
+            "gap": {
+                "score": "-55.3%",
+                "accuracy": "20.0%"
+            }
+        },
+        "PDDL": {
+            "easy": {
+                "score": "80.0%",
+                "accuracy": "68.4%"
+            },
+            "hard": {
+                "score": "189.7%",
+                "accuracy": "19.6%"
+            },
+            "gap": {
+                "score": "-109.7%",
+                "accuracy": "48.8%"
+            }
+        }
+    },
+    "gpt-3.5-turbo": {
+        "Alfworld": {
+            "easy": {
+                "score": "68.7%",
+                "accuracy": "28.4%"
+            },
+            "hard": {
+                "score": "220.1%",
+                "accuracy": "13.6%"
+            },
+            "gap": {
+                "score": "-151.4%",
+                "accuracy": "14.8%"
+            }
+        },
+        "ScienceWorld": {
+            "easy": {
+                "score": "84.8%",
+                "accuracy": "29.6%"
+            },
+            "hard": {
+                "score": "291.0%",
+                "accuracy": "7.6%"
+            },
+            "gap": {
+                "score": "-206.2%",
+                "accuracy": "22.0%"
+            }
+        },
+        "BabyAI": {
+            "easy": {
+                "score": "97.8%",
+                "accuracy": "17.6%"
+            },
+            "hard": {
+                "score": "273.8%",
+                "accuracy": "8.0%"
+            },
+            "gap": {
+                "score": "-176.0%",
+                "accuracy": "9.6%"
+            }
+        },
+        "Jericho": {
+            "easy": {
+                "score": "65.1%",
+                "accuracy": "29.2%"
+            },
+            "hard": {
+                "score": "163.4%",
+                "accuracy": "23.2%"
+            },
+            "gap": {
+                "score": "-98.3%",
+                "accuracy": "6.0%"
+            }
+        },
+        "PDDL": {
+            "easy": {
+                "score": "120.7%",
+                "accuracy": "31.2%"
+            },
+            "hard": {
+                "score": "226.4%",
+                "accuracy": "8.0%"
+            },
+            "gap": {
+                "score": "-105.7%",
+                "accuracy": "23.2%"
+            }
+        }
+    },
+    "gpt-4o-mini": {
+        "Alfworld": {
+            "easy": {
+                "score": "41.7%",
+                "accuracy": "82.4%"
+            },
+            "hard": {
+                "score": "189.4%",
+                "accuracy": "38.0%"
+            },
+            "gap": {
+                "score": "-147.7%",
+                "accuracy": "44.4%"
+            }
+        },
+        "ScienceWorld": {
+            "easy": {
+                "score": "67.8%",
+                "accuracy": "69.2%"
+            },
+            "hard": {
+                "score": "258.2%",
+                "accuracy": "34.0%"
+            },
+            "gap": {
+                "score": "-190.4%",
+                "accuracy": "35.2%"
+            }
+        },
+        "BabyAI": {
+            "easy": {
+                "score": "61.4%",
+                "accuracy": "60.0%"
+            },
+            "hard": {
+                "score": "248.9%",
+                "accuracy": "19.2%"
+            },
+            "gap": {
+                "score": "-187.5%",
+                "accuracy": "40.8%"
+            }
+        },
+        "Jericho": {
+            "easy": {
+                "score": "18.9%",
+                "accuracy": "76.0%"
+            },
+            "hard": {
+                "score": "103.1%",
+                "accuracy": "43.6%"
+            },
+            "gap": {
+                "score": "-84.2%",
+                "accuracy": "32.4%"
+            }
+        },
+        "PDDL": {
+            "easy": {
+                "score": "73.7%",
+                "accuracy": "74.4%"
+            },
+            "hard": {
+                "score": "190.7%",
+                "accuracy": "20.4%"
+            },
+            "gap": {
+                "score": "-117.0%",
+                "accuracy": "54.0%"
+            }
+        }
+    },
+    "gemini-2.0-flash-exp": {
+        "Alfworld": {
+            "easy": {
+                "score": "41.0%",
+                "accuracy": "87.6%"
+            },
+            "hard": {
+                "score": "161.5%",
+                "accuracy": "59.6%"
+            },
+            "gap": {
+                "score": "-120.6%",
+                "accuracy": "28.0%"
+            }
+        },
+        "ScienceWorld": {
+            "easy": {
+                "score": "67.3%",
+                "accuracy": "88.0%"
+            },
+            "hard": {
+                "score": "226.8%",
+                "accuracy": "65.2%"
+            },
+            "gap": {
+                "score": "-159.5%",
+                "accuracy": "22.8%"
+            }
+        },
+        "BabyAI": {
+            "easy": {
+                "score": "57.3%",
+                "accuracy": "76.0%"
+            },
+            "hard": {
+                "score": "223.7%",
+                "accuracy": "38.8%"
+            },
+            "gap": {
+                "score": "-166.4%",
+                "accuracy": "37.2%"
+            }
+        },
+        "Jericho": {
+            "easy": {
+                "score": "16.6%",
+                "accuracy": "78.8%"
+            },
+            "hard": {
+                "score": "91.5%",
+                "accuracy": "54.4%"
+            },
+            "gap": {
+                "score": "-74.9%",
+                "accuracy": "24.4%"
+            }
+        },
+        "PDDL": {
+            "easy": {
+                "score": "82.3%",
+                "accuracy": "66.4%"
+            },
+            "hard": {
+                "score": "168.0%",
+                "accuracy": "34.4%"
+            },
+            "gap": {
+                "score": "-85.6%",
+                "accuracy": "32.0%"
+            }
+        }
+    },
+    "yi-lightning": {
+        "Alfworld": {
+            "easy": {
+                "score": "47.7%",
+                "accuracy": "75.6%"
+            },
+            "hard": {
+                "score": "184.4%",
+                "accuracy": "41.2%"
+            },
+            "gap": {
+                "score": "-136.7%",
+                "accuracy": "34.4%"
+            }
+        },
+        "ScienceWorld": {
+            "easy": {
+                "score": "69.0%",
+                "accuracy": "83.6%"
+            },
+            "hard": {
+                "score": "234.4%",
+                "accuracy": "52.0%"
+            },
+            "gap": {
+                "score": "-165.4%",
+                "accuracy": "31.6%"
+            }
+        },
+        "BabyAI": {
+            "easy": {
+                "score": "64.0%",
+                "accuracy": "61.6%"
+            },
+            "hard": {
+                "score": "249.7%",
+                "accuracy": "19.6%"
+            },
+            "gap": {
+                "score": "-185.7%",
+                "accuracy": "42.0%"
+            }
+        },
+        "Jericho": {
+            "easy": {
+                "score": "33.2%",
+                "accuracy": "60.0%"
+            },
+            "hard": {
+                "score": "135.5%",
+                "accuracy": "30.8%"
+            },
+            "gap": {
+                "score": "-102.3%",
+                "accuracy": "29.2%"
+            }
+        },
+        "PDDL": {
+            "easy": {
+                "score": "84.2%",
+                "accuracy": "55.6%"
+            },
+            "hard": {
+                "score": "211.7%",
+                "accuracy": "10.0%"
+            },
+            "gap": {
+                "score": "-127.4%",
+                "accuracy": "45.6%"
+            }
+        }
+    },
+    "claude-3.5-sonnet": {
+        "Alfworld": {
+            "easy": {
+                "score": "32.4%",
+                "accuracy": "92.4%"
+            },
+            "hard": {
+                "score": "136.9%",
+                "accuracy": "62.0%"
+            },
+            "gap": {
+                "score": "-104.5%",
+                "accuracy": "30.4%"
+            }
+        },
+        "ScienceWorld": {
+            "easy": {
+                "score": "49.5%",
+                "accuracy": "92.4%"
+            },
+            "hard": {
+                "score": "164.3%",
+                "accuracy": "62.0%"
+            },
+            "gap": {
+                "score": "-114.8%",
+                "accuracy": "30.4%"
+            }
+        },
+        "BabyAI": {
+            "easy": {
+                "score": "61.6%",
+                "accuracy": "69.6%"
+            },
+            "hard": {
+                "score": "245.1%",
+                "accuracy": "20.0%"
+            },
+            "gap": {
+                "score": "-183.5%",
+                "accuracy": "49.6%"
+            }
+        },
+        "Jericho": {
+            "easy": {
+                "score": "13.6%",
+                "accuracy": "89.6%"
+            },
+            "hard": {
+                "score": "109.3%",
+                "accuracy": "48.4%"
+            },
+            "gap": {
+                "score": "-95.7%",
+                "accuracy": "41.2%"
+            }
+        },
+        "PDDL": {
+            "easy": {
+                "score": "73.8%",
+                "accuracy": "69.2%"
+            },
+            "hard": {
+                "score": "176.2%",
+                "accuracy": "27.6%"
+            },
+            "gap": {
+                "score": "-102.5%",
+                "accuracy": "41.6%"
+            }
+        }
+    },
+    "claude-3.5-haiku": {
+        "Alfworld": {
+            "easy": {
+                "score": "62.0%",
+                "accuracy": "81.6%"
+            },
+            "hard": {
+                "score": "195.9%",
+                "accuracy": "38.4%"
+            },
+            "gap": {
+                "score": "-133.9%",
+                "accuracy": "43.2%"
+            }
+        },
+        "ScienceWorld": {
+            "easy": {
+                "score": "86.0%",
+                "accuracy": "83.6%"
+            },
+            "hard": {
+                "score": "239.4%",
+                "accuracy": "49.2%"
+            },
+            "gap": {
+                "score": "-153.4%",
+                "accuracy": "34.4%"
+            }
+        },
+        "BabyAI": {
+            "easy": {
+                "score": "85.0%",
+                "accuracy": "61.6%"
+            },
+            "hard": {
+                "score": "237.3%",
+                "accuracy": "26.0%"
+            },
+            "gap": {
+                "score": "-152.3%",
+                "accuracy": "35.6%"
+            }
+        },
+        "Jericho": {
+            "easy": {
+                "score": "50.2%",
+                "accuracy": "70.0%"
+            },
+            "hard": {
+                "score": "134.9%",
+                "accuracy": "44.0%"
+            },
+            "gap": {
+                "score": "-84.7%",
+                "accuracy": "26.0%"
+            }
+        },
+        "PDDL": {
+            "easy": {
+                "score": "95.4%",
+                "accuracy": "70.4%"
+            },
+            "hard": {
+                "score": "198.2%",
+                "accuracy": "22.0%"
+            },
+            "gap": {
+                "score": "-102.8%",
+                "accuracy": "48.4%"
+            }
+        }
+    },
+    "qwq-32b": {
+        "Alfworld": {
+            "easy": {
+                "score": "51.2%",
+                "accuracy": "92.0%"
+            },
+            "hard": {
+                "score": "158.5%",
+                "accuracy": "64.0%"
+            },
+            "gap": {
+                "score": "-107.3%",
+                "accuracy": "28.0%"
+            }
+        },
+        "ScienceWorld": {
+            "easy": {
+                "score": "72.3%",
+                "accuracy": "93.6%"
+            },
+            "hard": {
+                "score": "181.7%",
+                "accuracy": "81.2%"
+            },
+            "gap": {
+                "score": "-109.3%",
+                "accuracy": "12.4%"
+            }
+        },
+        "BabyAI": {
+            "easy": {
+                "score": "60.5%",
+                "accuracy": "86.8%"
+            },
+            "hard": {
+                "score": "203.8%",
+                "accuracy": "47.2%"
+            },
+            "gap": {
+                "score": "-143.3%",
+                "accuracy": "39.6%"
+            }
+        },
+        "Jericho": {
+            "easy": {
+                "score": "3.8%",
+                "accuracy": "97.2%"
+            },
+            "hard": {
+                "score": "48.3%",
+                "accuracy": "72.8%"
+            },
+            "gap": {
+                "score": "-44.5%",
+                "accuracy": "24.4%"
+            }
+        },
+        "PDDL": {
+            "easy": {
+                "score": "79.0%",
+                "accuracy": "82.0%"
+            },
+            "hard": {
+                "score": "165.3%",
+                "accuracy": "40.4%"
+            },
+            "gap": {
+                "score": "-86.3%",
+                "accuracy": "41.6%"
+            }
+        }
+    },
+    "llama-4-maverick-17b-128e-instruct": {
+        "Alfworld": {
+            "easy": {
+                "score": "52.8%",
+                "accuracy": "89.6%"
+            },
+            "hard": {
+                "score": "172.1%",
+                "accuracy": "61.2%"
+            },
+            "gap": {
+                "score": "-119.3%",
+                "accuracy": "28.4%"
+            }
+        },
+        "ScienceWorld": {
+            "easy": {
+                "score": "72.8%",
+                "accuracy": "92.8%"
+            },
+            "hard": {
+                "score": "226.0%",
+                "accuracy": "65.2%"
+            },
+            "gap": {
+                "score": "-153.2%",
+                "accuracy": "27.6%"
+            }
+        },
+        "BabyAI": {
+            "easy": {
+                "score": "70.3%",
+                "accuracy": "63.6%"
+            },
+            "hard": {
+                "score": "247.9%",
+                "accuracy": "24.4%"
+            },
+            "gap": {
+                "score": "-177.6%",
+                "accuracy": "39.2%"
+            }
+        },
+        "Jericho": {
+            "easy": {
+                "score": "19.9%",
+                "accuracy": "77.2%"
+            },
+            "hard": {
+                "score": "87.1%",
+                "accuracy": "51.6%"
+            },
+            "gap": {
+                "score": "-67.2%",
+                "accuracy": "25.6%"
+            }
+        },
+        "PDDL": {
+            "easy": {
+                "score": "90.7%",
+                "accuracy": "53.2%"
+            },
+            "hard": {
+                "score": "215.7%",
+                "accuracy": "13.2%"
+            },
+            "gap": {
+                "score": "-125.0%",
+                "accuracy": "40.0%"
+            }
+        }
+    },
+    "llama-4-scout-17b-16e-instruct": {
+        "Alfworld": {
+            "easy": {
+                "score": "57.3%",
+                "accuracy": "86.0%"
+            },
+            "hard": {
+                "score": "183.9%",
+                "accuracy": "42.4%"
+            },
+            "gap": {
+                "score": "-126.6%",
+                "accuracy": "43.6%"
+            }
+        },
+        "ScienceWorld": {
+            "easy": {
+                "score": "81.2%",
+                "accuracy": "93.6%"
+            },
+            "hard": {
+                "score": "246.3%",
+                "accuracy": "41.2%"
+            },
+            "gap": {
+                "score": "-165.1%",
+                "accuracy": "52.4%"
+            }
+        },
+        "BabyAI": {
+            "easy": {
+                "score": "94.5%",
+                "accuracy": "52.4%"
+            },
+            "hard": {
+                "score": "285.4%",
+                "accuracy": "8.0%"
+            },
+            "gap": {
+                "score": "-190.9%",
+                "accuracy": "44.4%"
+            }
+        },
+        "Jericho": {
+            "easy": {
+                "score": "64.3%",
+                "accuracy": "57.6%"
+            },
+            "hard": {
+                "score": "171.9%",
+                "accuracy": "22.0%"
+            },
+            "gap": {
+                "score": "-107.7%",
+                "accuracy": "35.6%"
+            }
+        },
+        "PDDL": {
+            "easy": {
+                "score": "112.0%",
+                "accuracy": "38.4%"
+            },
+            "hard": {
+                "score": "219.0%",
+                "accuracy": "9.6%"
+            },
+            "gap": {
+                "score": "-107.0%",
+                "accuracy": "28.8%"
+            }
+        }
+    }
+}

@@ -39,7 +39,7 @@ const basePath = getBasePath();
 
 // Load JSON data and initialize the chart
 function loadData() {
-    return fetch(`${basePath}/data/To_Release/difficulty.json`)
+    return fetch(`${basePath}/data/kumo/kumo.json`)
         .then(response => response.json())
         .then(data => {
             rawData = data;
@@ -366,19 +366,22 @@ function sortData(sortOption) {
         rawData.sort((a, b) => {
             const scoreA = a.tasks[currentTask].easy ? parseFloat(a.tasks[currentTask].easy.score) : 0;
             const scoreB = b.tasks[currentTask].easy ? parseFloat(b.tasks[currentTask].easy.score) : 0;
-            return scoreB - scoreA;
+            // return scoreB - scoreA;
+            return scoreA - scoreB;
         });
     } else if (sortOption === sortby_options.BY_REWARD_SCORE_HARD) {
         rawData.sort((a, b) => {
             const scoreA = a.tasks[currentTask].hard ? parseFloat(a.tasks[currentTask].hard.score) : 0;
             const scoreB = b.tasks[currentTask].hard ? parseFloat(b.tasks[currentTask].hard.score) : 0;
-            return scoreB - scoreA;
+            // return scoreB - scoreA;
+            return scoreA - scoreB;
         });
     } else if (sortOption === sortby_options.BY_REWARD_SCORE_GAP) {
         rawData.sort((a, b) => {
             const scoreA = a.tasks[currentTask].gap ? parseFloat(a.tasks[currentTask].gap.score) : 0;
             const scoreB = b.tasks[currentTask].gap ? parseFloat(b.tasks[currentTask].gap.score) : 0;
-            return scoreB - scoreA;
+            // return scoreB - scoreA;
+            return scoreA - scoreB;
         });
     } else if (sortOption === sortby_options.BY_ACCURACY_SCORE_EASY) {
         rawData.sort((a, b) => {
