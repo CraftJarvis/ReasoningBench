@@ -2,7 +2,7 @@
     {
         "Model": "qwen2.5-3b-instruct",
         "tasks": {
-            "Alfworld": {
+            "AlfWorld": {
                 "easy": {
                     "score": "16.3%",
                     "accuracy": "22.0%"
@@ -147,7 +147,7 @@
     {
         "Model": "qwen2.5-7b-instruct",
         "tasks": {
-            "Alfworld": {
+            "AlfWorld": {
                 "easy": {
                     "score": "14.3%",
                     "accuracy": "54.4%"
@@ -292,7 +292,7 @@
     {
         "Model": "qwen2.5-14b-instruct",
         "tasks": {
-            "Alfworld": {
+            "AlfWorld": {
                 "easy": {
                     "score": "12.3%",
                     "accuracy": "83.2%"
@@ -437,7 +437,7 @@
     {
         "Model": "qwen2.5-32b-instruct",
         "tasks": {
-            "Alfworld": {
+            "AlfWorld": {
                 "easy": {
                     "score": "13.8%",
                     "accuracy": "88.0%"
@@ -582,7 +582,7 @@
     {
         "Model": "qwen2.5-72b-instruct",
         "tasks": {
-            "Alfworld": {
+            "AlfWorld": {
                 "easy": {
                     "score": "10.9%",
                     "accuracy": "89.6%"
@@ -727,7 +727,7 @@
     {
         "Model": "llama-3.1-8b-instruct",
         "tasks": {
-            "Alfworld": {
+            "AlfWorld": {
                 "easy": {
                     "score": "16.9%",
                     "accuracy": "52.0%"
@@ -872,7 +872,7 @@
     {
         "Model": "llama-3.1-70b-instruct",
         "tasks": {
-            "Alfworld": {
+            "AlfWorld": {
                 "easy": {
                     "score": "10.2%",
                     "accuracy": "82.0%"
@@ -1017,7 +1017,7 @@
     {
         "Model": "llama-3.2-3b-instruct",
         "tasks": {
-            "Alfworld": {
+            "AlfWorld": {
                 "easy": {
                     "score": "17.0%",
                     "accuracy": "29.6%"
@@ -1162,7 +1162,7 @@
     {
         "Model": "llama-3.3-70b-instruct",
         "tasks": {
-            "Alfworld": {
+            "AlfWorld": {
                 "easy": {
                     "score": "11.1%",
                     "accuracy": "89.6%"
@@ -1307,7 +1307,7 @@
     {
         "Model": "mistral-large-instruct-2411",
         "tasks": {
-            "Alfworld": {
+            "AlfWorld": {
                 "easy": {
                     "score": "9.7%",
                     "accuracy": "89.6%"
@@ -1452,7 +1452,7 @@
     {
         "Model": "gemma-2-27b-it",
         "tasks": {
-            "Alfworld": {
+            "AlfWorld": {
                 "easy": {
                     "score": "12.1%",
                     "accuracy": "69.2%"
@@ -1597,7 +1597,7 @@
     {
         "Model": "gemma-2-9b-it",
         "tasks": {
-            "Alfworld": {
+            "AlfWorld": {
                 "easy": {
                     "score": "16.1%",
                     "accuracy": "57.6%"
@@ -1742,7 +1742,7 @@
     {
         "Model": "deepseek-v3",
         "tasks": {
-            "Alfworld": {
+            "AlfWorld": {
                 "easy": {
                     "score": "10.6%",
                     "accuracy": "90.4%"
@@ -1887,7 +1887,7 @@
     {
         "Model": "deepseek-r1",
         "tasks": {
-            "Alfworld": {
+            "AlfWorld": {
                 "easy": {
                     "score": "10.5%",
                     "accuracy": "93.6%"
@@ -2032,7 +2032,7 @@
     {
         "Model": "o1-mini",
         "tasks": {
-            "Alfworld": {
+            "AlfWorld": {
                 "easy": {
                     "score": "10.7%",
                     "accuracy": "92.0%"
@@ -2177,7 +2177,7 @@
     {
         "Model": "gpt-4o",
         "tasks": {
-            "Alfworld": {
+            "AlfWorld": {
                 "easy": {
                     "score": "8.9%",
                     "accuracy": "90.4%"
@@ -2322,7 +2322,7 @@
     {
         "Model": "gpt-3.5-turbo",
         "tasks": {
-            "Alfworld": {
+            "AlfWorld": {
                 "easy": {
                     "score": "17.2%",
                     "accuracy": "28.4%"
@@ -2467,7 +2467,7 @@
     {
         "Model": "gpt-4o-mini",
         "tasks": {
-            "Alfworld": {
+            "AlfWorld": {
                 "easy": {
                     "score": "10.4%",
                     "accuracy": "82.4%"
@@ -2612,7 +2612,7 @@
     {
         "Model": "gemini-2.0-flash-exp",
         "tasks": {
-            "Alfworld": {
+            "AlfWorld": {
                 "easy": {
                     "score": "10.2%",
                     "accuracy": "87.6%"
@@ -2757,7 +2757,7 @@
     {
         "Model": "yi-lightning",
         "tasks": {
-            "Alfworld": {
+            "AlfWorld": {
                 "easy": {
                     "score": "11.9%",
                     "accuracy": "75.6%"
@@ -2902,7 +2902,7 @@
     {
         "Model": "claude-3.5-sonnet",
         "tasks": {
-            "Alfworld": {
+            "AlfWorld": {
                 "easy": {
                     "score": "8.1%",
                     "accuracy": "92.4%"
@@ -3047,7 +3047,7 @@
     {
         "Model": "claude-3.5-haiku",
         "tasks": {
-            "Alfworld": {
+            "AlfWorld": {
                 "easy": {
                     "score": "15.5%",
                     "accuracy": "81.6%"
@@ -3192,7 +3192,7 @@
     {
         "Model": "qwq-32b",
         "tasks": {
-            "Alfworld": {
+            "AlfWorld": {
                 "easy": {
                     "score": "12.8%",
                     "accuracy": "92.0%"
@@ -3337,7 +3337,7 @@
     {
         "Model": "llama-4-maverick-17b-128e-instruct",
         "tasks": {
-            "Alfworld": {
+            "AlfWorld": {
                 "easy": {
                     "score": "13.2%",
                     "accuracy": "89.6%"
@@ -3482,7 +3482,7 @@
     {
         "Model": "llama-4-scout-17b-16e-instruct",
         "tasks": {
-            "Alfworld": {
+            "AlfWorld": {
                 "easy": {
                     "score": "14.3%",
                     "accuracy": "86.0%"
