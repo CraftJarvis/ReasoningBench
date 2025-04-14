@@ -71,6 +71,20 @@
                     "score": "-120.2%",
                     "accuracy": "22.0%"
                 }
+            },
+            "Avg": {
+                "easy": {
+                    "score": "82.6%",
+                    "accuracy": "18.4%"
+                },
+                "hard": {
+                    "score": "242.6%",
+                    "accuracy": "18.4%"
+                },
+                "gap": {
+                    "score": "-160.0%",
+                    "accuracy": "12.2%"
+                }
             }
         }
     },
@@ -145,6 +159,20 @@
                 "gap": {
                     "score": "-97.9%",
                     "accuracy": "31.6%"
+                }
+            },
+            "Avg": {
+                "easy": {
+                    "score": "86.8%",
+                    "accuracy": "36.6%"
+                },
+                "hard": {
+                    "score": "232.6%",
+                    "accuracy": "36.6%"
+                },
+                "gap": {
+                    "score": "-145.8%",
+                    "accuracy": "20.0%"
                 }
             }
         }
@@ -221,6 +249,20 @@
                     "score": "-111.3%",
                     "accuracy": "48.8%"
                 }
+            },
+            "Avg": {
+                "easy": {
+                    "score": "57.2%",
+                    "accuracy": "75.6%"
+                },
+                "hard": {
+                    "score": "193.8%",
+                    "accuracy": "75.6%"
+                },
+                "gap": {
+                    "score": "-136.6%",
+                    "accuracy": "37.4%"
+                }
             }
         }
     },
@@ -295,6 +337,20 @@
                 "gap": {
                     "score": "-100.2%",
                     "accuracy": "42.8%"
+                }
+            },
+            "Avg": {
+                "easy": {
+                    "score": "59.6%",
+                    "accuracy": "78.8%"
+                },
+                "hard": {
+                    "score": "188.3%",
+                    "accuracy": "78.8%"
+                },
+                "gap": {
+                    "score": "-128.8%",
+                    "accuracy": "34.9%"
                 }
             }
         }
@@ -371,6 +427,20 @@
                     "score": "-113.7%",
                     "accuracy": "50.8%"
                 }
+            },
+            "Avg": {
+                "easy": {
+                    "score": "57.5%",
+                    "accuracy": "75.8%"
+                },
+                "hard": {
+                    "score": "186.5%",
+                    "accuracy": "75.8%"
+                },
+                "gap": {
+                    "score": "-129.0%",
+                    "accuracy": "35.8%"
+                }
             }
         }
     },
@@ -445,6 +515,20 @@
                 "gap": {
                     "score": "-110.4%",
                     "accuracy": "28.0%"
+                }
+            },
+            "Avg": {
+                "easy": {
+                    "score": "84.4%",
+                    "accuracy": "44.2%"
+                },
+                "hard": {
+                    "score": "233.2%",
+                    "accuracy": "44.2%"
+                },
+                "gap": {
+                    "score": "-148.8%",
+                    "accuracy": "32.6%"
                 }
             }
         }
@@ -521,6 +605,20 @@
                     "score": "-116.5%",
                     "accuracy": "48.0%"
                 }
+            },
+            "Avg": {
+                "easy": {
+                    "score": "55.1%",
+                    "accuracy": "69.6%"
+                },
+                "hard": {
+                    "score": "196.5%",
+                    "accuracy": "69.6%"
+                },
+                "gap": {
+                    "score": "-141.4%",
+                    "accuracy": "44.0%"
+                }
             }
         }
     },
@@ -595,6 +693,20 @@
                 "gap": {
                     "score": "-116.1%",
                     "accuracy": "13.2%"
+                }
+            },
+            "Avg": {
+                "easy": {
+                    "score": "89.9%",
+                    "accuracy": "18.2%"
+                },
+                "hard": {
+                    "score": "244.4%",
+                    "accuracy": "18.2%"
+                },
+                "gap": {
+                    "score": "-154.5%",
+                    "accuracy": "11.8%"
                 }
             }
         }
@@ -671,6 +783,20 @@
                     "score": "-121.6%",
                     "accuracy": "34.8%"
                 }
+            },
+            "Avg": {
+                "easy": {
+                    "score": "59.2%",
+                    "accuracy": "71.2%"
+                },
+                "hard": {
+                    "score": "190.9%",
+                    "accuracy": "71.2%"
+                },
+                "gap": {
+                    "score": "-131.8%",
+                    "accuracy": "37.4%"
+                }
             }
         }
     },
@@ -745,6 +871,20 @@
                 "gap": {
                     "score": "-116.0%",
                     "accuracy": "50.8%"
+                }
+            },
+            "Avg": {
+                "easy": {
+                    "score": "53.7%",
+                    "accuracy": "78.8%"
+                },
+                "hard": {
+                    "score": "179.6%",
+                    "accuracy": "78.8%"
+                },
+                "gap": {
+                    "score": "-125.9%",
+                    "accuracy": "37.4%"
                 }
             }
         }
@@ -821,6 +961,20 @@
                     "score": "-127.1%",
                     "accuracy": "34.8%"
                 }
+            },
+            "Avg": {
+                "easy": {
+                    "score": "65.8%",
+                    "accuracy": "54.8%"
+                },
+                "hard": {
+                    "score": "228.5%",
+                    "accuracy": "54.8%"
+                },
+                "gap": {
+                    "score": "-162.6%",
+                    "accuracy": "37.8%"
+                }
             }
         }
     },
@@ -895,6 +1049,20 @@
                 "gap": {
                     "score": "-105.8%",
                     "accuracy": "21.2%"
+                }
+            },
+            "Avg": {
+                "easy": {
+                    "score": "85.2%",
+                    "accuracy": "39.2%"
+                },
+                "hard": {
+                    "score": "233.9%",
+                    "accuracy": "39.2%"
+                },
+                "gap": {
+                    "score": "-148.7%",
+                    "accuracy": "26.0%"
                 }
             }
         }
@@ -971,6 +1139,20 @@
                     "score": "-108.5%",
                     "accuracy": "49.6%"
                 }
+            },
+            "Avg": {
+                "easy": {
+                    "score": "53.1%",
+                    "accuracy": "89.3%"
+                },
+                "hard": {
+                    "score": "170.5%",
+                    "accuracy": "89.3%"
+                },
+                "gap": {
+                    "score": "-117.4%",
+                    "accuracy": "34.3%"
+                }
             }
         }
     },
@@ -1045,6 +1227,20 @@
                 "gap": {
                     "score": "-81.0%",
                     "accuracy": "33.6%"
+                }
+            },
+            "Avg": {
+                "easy": {
+                    "score": "51.4%",
+                    "accuracy": "87.1%"
+                },
+                "hard": {
+                    "score": "142.1%",
+                    "accuracy": "87.1%"
+                },
+                "gap": {
+                    "score": "-90.6%",
+                    "accuracy": "26.0%"
                 }
             }
         }
@@ -1121,6 +1317,20 @@
                     "score": "-93.5%",
                     "accuracy": "44.8%"
                 }
+            },
+            "Avg": {
+                "easy": {
+                    "score": "46.4%",
+                    "accuracy": "87.8%"
+                },
+                "hard": {
+                    "score": "142.3%",
+                    "accuracy": "87.8%"
+                },
+                "gap": {
+                    "score": "-95.9%",
+                    "accuracy": "24.9%"
+                }
             }
         }
     },
@@ -1195,6 +1405,20 @@
                 "gap": {
                     "score": "-109.7%",
                     "accuracy": "48.8%"
+                }
+            },
+            "Avg": {
+                "easy": {
+                    "score": "50.6%",
+                    "accuracy": "78.6%"
+                },
+                "hard": {
+                    "score": "171.6%",
+                    "accuracy": "78.6%"
+                },
+                "gap": {
+                    "score": "-121.0%",
+                    "accuracy": "33.6%"
                 }
             }
         }
@@ -1271,6 +1495,20 @@
                     "score": "-105.7%",
                     "accuracy": "23.2%"
                 }
+            },
+            "Avg": {
+                "easy": {
+                    "score": "87.4%",
+                    "accuracy": "27.2%"
+                },
+                "hard": {
+                    "score": "235.0%",
+                    "accuracy": "27.2%"
+                },
+                "gap": {
+                    "score": "-147.5%",
+                    "accuracy": "15.1%"
+                }
             }
         }
     },
@@ -1345,6 +1583,20 @@
                 "gap": {
                     "score": "-117.0%",
                     "accuracy": "54.0%"
+                }
+            },
+            "Avg": {
+                "easy": {
+                    "score": "52.7%",
+                    "accuracy": "72.4%"
+                },
+                "hard": {
+                    "score": "198.0%",
+                    "accuracy": "72.4%"
+                },
+                "gap": {
+                    "score": "-145.3%",
+                    "accuracy": "41.4%"
                 }
             }
         }
@@ -1421,6 +1673,20 @@
                     "score": "-85.6%",
                     "accuracy": "32.0%"
                 }
+            },
+            "Avg": {
+                "easy": {
+                    "score": "52.9%",
+                    "accuracy": "79.4%"
+                },
+                "hard": {
+                    "score": "174.3%",
+                    "accuracy": "79.4%"
+                },
+                "gap": {
+                    "score": "-121.4%",
+                    "accuracy": "28.9%"
+                }
             }
         }
     },
@@ -1495,6 +1761,20 @@
                 "gap": {
                     "score": "-127.4%",
                     "accuracy": "45.6%"
+                }
+            },
+            "Avg": {
+                "easy": {
+                    "score": "59.6%",
+                    "accuracy": "67.3%"
+                },
+                "hard": {
+                    "score": "203.1%",
+                    "accuracy": "67.3%"
+                },
+                "gap": {
+                    "score": "-143.5%",
+                    "accuracy": "36.6%"
                 }
             }
         }
@@ -1571,6 +1851,20 @@
                     "score": "-102.5%",
                     "accuracy": "41.6%"
                 }
+            },
+            "Avg": {
+                "easy": {
+                    "score": "46.2%",
+                    "accuracy": "82.6%"
+                },
+                "hard": {
+                    "score": "166.4%",
+                    "accuracy": "82.6%"
+                },
+                "gap": {
+                    "score": "-120.2%",
+                    "accuracy": "38.6%"
+                }
             }
         }
     },
@@ -1645,6 +1939,20 @@
                 "gap": {
                     "score": "-102.8%",
                     "accuracy": "48.4%"
+                }
+            },
+            "Avg": {
+                "easy": {
+                    "score": "75.7%",
+                    "accuracy": "73.4%"
+                },
+                "hard": {
+                    "score": "201.1%",
+                    "accuracy": "73.4%"
+                },
+                "gap": {
+                    "score": "-125.4%",
+                    "accuracy": "37.5%"
                 }
             }
         }
@@ -1721,6 +2029,20 @@
                     "score": "-86.3%",
                     "accuracy": "41.6%"
                 }
+            },
+            "Avg": {
+                "easy": {
+                    "score": "53.4%",
+                    "accuracy": "90.3%"
+                },
+                "hard": {
+                    "score": "151.5%",
+                    "accuracy": "90.3%"
+                },
+                "gap": {
+                    "score": "-98.1%",
+                    "accuracy": "29.2%"
+                }
             }
         }
     },
@@ -1796,6 +2118,20 @@
                     "score": "-125.0%",
                     "accuracy": "40.0%"
                 }
+            },
+            "Avg": {
+                "easy": {
+                    "score": "61.3%",
+                    "accuracy": "75.3%"
+                },
+                "hard": {
+                    "score": "189.8%",
+                    "accuracy": "75.3%"
+                },
+                "gap": {
+                    "score": "-128.5%",
+                    "accuracy": "32.2%"
+                }
             }
         }
     },
@@ -1870,6 +2206,20 @@
                 "gap": {
                     "score": "-107.0%",
                     "accuracy": "28.8%"
+                }
+            },
+            "Avg": {
+                "easy": {
+                    "score": "81.8%",
+                    "accuracy": "65.6%"
+                },
+                "hard": {
+                    "score": "221.3%",
+                    "accuracy": "65.6%"
+                },
+                "gap": {
+                    "score": "-139.5%",
+                    "accuracy": "41.0%"
                 }
             }
         }
