@@ -159,7 +159,7 @@ function createScoreChart() {
                     },
                     title: {
                         display: true,
-                        text: 'Progress Rate (%)',
+                        text: 'Relative Action Count (%)',
                         font: {
                             size: 14,
                             family: "'Noto Sans', sans-serif",
