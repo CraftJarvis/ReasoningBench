@@ -1,6 +1,6 @@
 [
     {
-        "Model": "qwen2.5-32b-instruct",
+        "model": "qwen2.5-32b-instruct",
         "tasks": {
             "AlfWorld": {
                 "easy": {
@@ -145,7 +145,7 @@
         }
     },
     {
-        "Model": "qwen2.5-72b-instruct",
+        "model": "qwen2.5-72b-instruct",
         "tasks": {
             "AlfWorld": {
                 "easy": {
@@ -290,7 +290,7 @@
         }
     },
     {
-        "Model": "llama-3.3-70b-instruct",
+        "model": "llama-3.3-70b-instruct",
         "tasks": {
             "AlfWorld": {
                 "easy": {
@@ -435,7 +435,7 @@
         }
     },
     {
-        "Model": "mistral-large-instruct-2411",
+        "model": "mistral-large-instruct-2411",
         "tasks": {
             "AlfWorld": {
                 "easy": {
@@ -580,7 +580,7 @@
         }
     },
     {
-        "Model": "gemma-2-27b-it",
+        "model": "gemma-2-27b-it",
         "tasks": {
             "AlfWorld": {
                 "easy": {
@@ -725,7 +725,7 @@
         }
     },
     {
-        "Model": "deepseek-v3",
+        "model": "deepseek-v3",
         "tasks": {
             "AlfWorld": {
                 "easy": {
@@ -870,7 +870,7 @@
         }
     },
     {
-        "Model": "deepseek-r1",
+        "model": "deepseek-r1",
         "tasks": {
             "AlfWorld": {
                 "easy": {
@@ -1015,7 +1015,7 @@
         }
     },
     {
-        "Model": "o1-mini",
+        "model": "o1-mini",
         "tasks": {
             "AlfWorld": {
                 "easy": {
@@ -1160,7 +1160,7 @@
         }
     },
     {
-        "Model": "gpt-4o",
+        "model": "gpt-4o",
         "tasks": {
             "AlfWorld": {
                 "easy": {
@@ -1305,7 +1305,7 @@
         }
     },
     {
-        "Model": "gpt-3.5-turbo",
+        "model": "gpt-3.5-turbo",
         "tasks": {
             "AlfWorld": {
                 "easy": {
@@ -1450,7 +1450,7 @@
         }
     },
     {
-        "Model": "gemini-2.0-flash-exp",
+        "model": "gemini-2.0-flash-exp",
         "tasks": {
             "AlfWorld": {
                 "easy": {
@@ -1595,7 +1595,7 @@
         }
     },
     {
-        "Model": "claude-3.5-sonnet",
+        "model": "claude-3.5-sonnet",
         "tasks": {
             "AlfWorld": {
                 "easy": {
@@ -1740,7 +1740,7 @@
         }
     },
     {
-        "Model": "claude-3.5-haiku",
+        "model": "claude-3.5-haiku",
         "tasks": {
             "AlfWorld": {
                 "easy": {
@@ -1885,7 +1885,7 @@
         }
     },
     {
-        "Model": "qwq-32b",
+        "model": "qwq-32b",
         "tasks": {
             "AlfWorld": {
                 "easy": {
@@ -2030,7 +2030,7 @@
         }
     },
     {
-        "Model": "llama-4-maverick-17b-128e-instruct",
+        "model": "llama-4-maverick-17b-128e-instruct",
         "tasks": {
             "AlfWorld": {
                 "easy": {
