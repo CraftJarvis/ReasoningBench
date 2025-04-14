@@ -24,9 +24,12 @@ const sortby_options = {
 let currentTask = 'Avg';
 let cur_sortby_option = sortby_options.BY_REWARD_SCORE_EASY;
 
+// 使用基础路径
+const basePath = getBasePath();
+
 // Load JSON data and initialize the chart
 function loadData() {
-    return fetch('/Users/bytedance/Documents/GitHub/ReasoningBench/data/To_Release/difficulty.json')
+    return fetch(`${basePath}/data/To_Release/difficulty.json`)
         .then(response => response.json())
         .then(data => {
             rawData = data;
