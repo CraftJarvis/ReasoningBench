@@ -213,6 +213,77 @@
 
 <script src="static/javascript/difficulty_analysis.js" type="module"></script>
 
+<div class="panel">
+    <div class="top-menu-long">
+        <div class="text-center btn-group">
+            <div class="btn-group btn-switch task-filter-selector-for-difficulty" data-toggle="buttons">
+                <button type="button" class="btn btn-container" disabled>Filter by category:</button>
+                <button type="button" class="btn btn-container active" id="difficulty-tasks-filter-Avg">Avg
+                </button>
+                <button type="button" class="btn btn-container" id="difficulty-tasks-filter-AlfWorld">AlfWorld
+                </button>
+                <button type="button" class="btn btn-container" id="difficulty-tasks-filter-ScienceWorld">
+                    ScienceWorld
+                </button>
+                <button type="button" class="btn btn-container" id="difficulty-tasks-filter-BabyAI">BabyAI
+                </button>
+                <button type="button" class="btn btn-container" id="difficulty-tasks-filter-Jericho">Jericho
+                </button>
+                <button type="button" class="btn btn-container" id="difficulty-tasks-filter-PDDL">PDDL
+                </button>
+                <button type="button" class="btn btn-container" id="difficulty-tasks-filter-WebShop">WebShop
+                </button>
+                <button type="button" class="btn btn-container" id="difficulty-tasks-filter-WebArena">WebArena
+                </button>
+                <button type="button" class="btn btn-container" id="difficulty-tasks-filter-Tool-Query">Tool-qa
+                </button>
+                <button type="button" class="btn btn-container" id="difficulty-tasks-filter-Tool-Operation">
+                    Tool-operator
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="charts-panel">
+        <div class="left-chart-panel">
+            <div class="text-center btn-sub-group">
+                <div class="btn-group btn-switch sort-by-button" data-toggle="buttons">
+                    <button type="button" class="btn btn-container" disabled>Sort by:</button>
+                    <button type="button" class="btn btn-container" id="sort-by-reward-score-easy">Progress Rate
+                        (Easy)
+                    </button>
+                    <button type="button" class="btn btn-container" id="sort-by-reward-score-hard">Progress Rate
+                        (Hard)
+                    </button>
+                    <button type="button" class="btn btn-container" id="sort-by-reward-score-gap">Progress Rate
+                        (Diff)
+                    </button>
+                </div>
+            </div>
+            <canvas id="difficulty_score_Chart"></canvas>
+        </div>
+        <div class="right-chart-panel">
+            <div class="text-center btn-sub-group">
+                <div class="btn-group btn-switch sort-by-button" data-toggle="buttons">
+                    <button type="button" class="btn btn-container" disabled>Sort by:</button>
+                    <button type="button" class="btn btn-container" id="sort-by-accuracy-score-easy">Success
+                        Rate
+                        (Easy)
+                    </button>
+                    <button type="button" class="btn btn-container" id="sort-by-accuracy-score-hard">Success
+                        Rate
+                        (Hard)
+                    </button>
+                    <button type="button" class="btn btn-container" id="sort-by-accuracy-score-gap">Success Rate
+                        (Diff)
+                    </button>
+                </div>
+            </div>
+            <canvas id="difficulty_acc_Chart"></canvas>
+        </div>
+    </div>
+    <script src="static/javascript/difficulty_analysis.js"></script>
+</div>
+
 <div class="main-body">
     <div class="section">
         <h2>Illustrative Overview</h2>
