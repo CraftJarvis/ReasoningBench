@@ -69,7 +69,7 @@ function loadContentForTab(tab) {
             <div class="content-left-content">
                 <div class="${targetClass} tab-content">
                     <p style="font-size: 18px; font-weight: bold; margin: 0 0 5px 5px"> > Task Description </p>
-                    <img src="${task.Task_image}" alt="${task.Task.toLowerCase()}">
+                    // <img src="${task.Task_image}" alt="${task.Task.toLowerCase()}">
                     <br>
                     &nbsp;&nbsp;${task.Description}
                 </div>
@@ -94,7 +94,7 @@ function loadContentForTab(tab) {
                             <br>${task.Example.Trajectory}
                         </div>
                         <div id="table-bottom"><a class="nav-button" href=${task.Wandb_url}>
-                    <img src="img/icon/more_example.png" alt="more_example">Explore more examples on W&B</a></div>
+                    <img src="img/icon/more_example.png" alt="more_example">Explore more examples on Huggingface</a></div>
                     </div>
                 </div>
             </div>`;
