@@ -10,7 +10,7 @@ function getBasePath() {
     if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
         return '';  // 本地开发环境
     } else if (window.location.hostname.includes('github.io')) {
-        return '.';  // GitHub Pages 环境
+        return '..';  // GitHub Pages 环境
     }
     return '';  // 其他环境默认
 }
